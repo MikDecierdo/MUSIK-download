@@ -2,7 +2,7 @@
 <p align="center"><b>An offline, folder-first music player for Android.</b> Your music, by the folder it's in.<br>
 Developed by <b>Kim G. Decierdo</b></p>
 
-<p align="center"><a href="../../releases/latest"><b>⬇ Download MUSIK for Android</b></a></p>
+<p align="center"><a href="../../releases/latest"><b>⬇ Download MUSIK for Android</b></a><br><a href="https://mikdecierdo.github.io/MUSIK-download/">Website</a></p>
 
 <p align="center"><img src="img/folders.png" width="270" alt="MUSIK: folders"> &nbsp; <img src="img/now-playing.png" width="270" alt="MUSIK: now playing with the bass visualizer"></p>
 
