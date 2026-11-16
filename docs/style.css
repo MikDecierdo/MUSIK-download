@@ -126,6 +126,17 @@
   .stage .desk { width: 100%; height: 100%; object-fit: cover; object-position: top; }
   .stage.phones { display: flex; align-items: center; justify-content: center; gap: 6%; padding: 4% 0; }
   .stage .phone { height: 100%; width: auto; border: 1px solid var(--line-strong); }
+  /* Landscape screenshots (the Videos player): one wide phone, centred */
+  .stage.landscape { display: flex; align-items: center; justify-content: center; padding: 0 5%; }
+  .stage .land { width: 100%; height: auto; border: 1px solid var(--line-strong); }
+  /* "More from the developer": an app row with its icon */
+  .app-link { display: flex; align-items: center; gap: 20px; padding: 28px 40px; text-decoration: none; color: inherit; border-top: 1px solid var(--line); }
+  .app-link:hover { background: var(--sunken); }
+  .app-link img { width: 64px; height: 64px; flex: none; }
+  .app-link h3 { font: 500 24px/1.2 "Archivo", system-ui, sans-serif; letter-spacing: -.02em; color: var(--ink-strong); }
+  .app-link p { margin-top: 4px; font-size: 15px; color: var(--muted); }
+  .app-link .go { margin-left: auto; flex: none; }
+  @media (max-width: 640px) { .app-link { padding: 20px 16px; gap: 14px; } .app-link img { width: 48px; height: 48px; } .app-link .go { display: none; } }
   .slide figcaption { margin-top: 14px; }
   .slide-nav { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 18px; }
   .slide-btn {
